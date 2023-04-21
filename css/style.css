@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*INIZIO HEADER*/
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, li{
+   display: inline;
+   list-style-type: none;
+   padding: 0px 10px;
+}
+/*FINE HEADER*/
+
+/*JUMBO TRON*/
+.jumbotron{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(134, 195, 252);
+}
+
+h1{
+    font-size: 70px;
+}
+
+.central-title{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jumbo-img{
+    width: 800px;
+}
+
+.content-jumbro{
+    display: flex;
+    justify-content: space-between;
+}
