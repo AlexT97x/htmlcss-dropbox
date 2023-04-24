@@ -8,21 +8,52 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/*INIZIO HEADER*/
-.nav-bar{
-    width: 100%;
-    height: 80px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
 
-ul, li{
-   display: inline;
-   list-style-type: none;
-   padding: 0px 10px;
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
 }
-/*FINE HEADER*/
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu li a{
+    transition: all .3s ease;
+}
+
+.menu a:hover{
+    color: blue;
+}
+
+.font-color{
+    color: white;
+}
+
+button{
+    background: rgb(38, 38, 255);
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:hover{
+    background: rgb(51, 153, 255);
+}
 
 /*JUMBO TRON*/
 .jumbotron{
@@ -33,6 +64,7 @@ ul, li{
 
 h1{
     font-size: 70px;
+    font-weight: 700;
 }
 
 .central-title{
@@ -44,7 +76,13 @@ h1{
     width: 800px;
 }
 
-.content-jumbro{
+.content-jumbo{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
+
+.bottone-jumbo{
+    margin: 500px;
+}
+
