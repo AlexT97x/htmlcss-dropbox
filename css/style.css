@@ -14,7 +14,6 @@ a{
     font-size: 14px;
 }
 
-
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -86,3 +85,53 @@ h1{
     margin: 500px;
 }
 
+.sezione-1{
+    display: flex;
+    align-items: center;
+}
+
+.piani-abbonamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singolo{
+    width: 350px;
+    height: 300px;
+    border: 1px solid;
+}
+
+ul li{
+    list-style: none;
+}
+
+.team{
+    width: 350px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.azienda{
+    width: 350px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.container-plan div{
+    margin: 20px;
+}
+
+.piano-enterprise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
