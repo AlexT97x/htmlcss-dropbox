@@ -42,6 +42,11 @@ a{
     color: white;
 }
 
+.wrap{
+   display: flex;
+   flex-wrap: wrap;
+}
+
 button{
     background: rgb(38, 38, 255);
     padding: 5px 10px;
