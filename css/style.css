@@ -141,3 +141,19 @@ ul li{
     justify-content: center;
     align-items: center;
 }
+
+.allinemanto{
+    width: 45%;
+    display: inline-block; 
+    margin: 2%;
+}
+
+.skill-dropbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: calc(100% / 3 - 20px);
+    margin: 10px 10px;
+}
